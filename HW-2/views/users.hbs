@@ -1,0 +1,12 @@
+<main>
+    <h1>Users</h1>
+    {{#each users}}
+        <div>
+            {{this.email}} - {{this.password}}
+        </div>
+    {{/each}}
+
+    <div>
+        <a href="/"><button>Back</button></a>
+    </div>
+</main>

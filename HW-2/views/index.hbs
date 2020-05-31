@@ -1,0 +1,43 @@
+<main>
+    <h1>Welcome to my node app!</h1>
+    <div class="container">
+
+        {{#if errMessReg}}
+            <div>{{errMessReg}}</div>
+
+            <div>
+                <h2>Do you want to register?</h2>
+                <a href="/register"><button>Yes!</button></a>
+            </div>
+
+            <div>
+                <h2>Or do you already have an account?</h2>
+                <a href="/login"><button>Yes!</button></a>
+            </div>
+        {{/if}}
+
+        {{#if errorMessage}}
+            <div>{{errorMessage}}</div>
+            <div>
+                <h2>Try again?</h2>
+                <a href="/login"><button>Yes!</button></a>
+            </div>
+
+            <div>
+                <h2>Or do you want to register?</h2>
+                <a href="/register"><button>Yes!</button></a>
+            </div>
+        {{/if}}
+
+        <div>
+            <h2>Do you want to register?</h2>
+            <a href="/register"><button>Yes!</button></a>
+        </div>
+
+        <div>
+            <h2>Or do you already have an account?</h2>
+            <a href="/login"><button>Yes!</button></a>
+        </div>
+
+    </div>
+</main>
