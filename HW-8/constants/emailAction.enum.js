@@ -1,0 +1,9 @@
+module.exports = {
+    USER_REGISTER: 0,
+    USER_DELETE: 1,
+    USER_UPDATE: 2,
+    PRODUCT_CREATE: 3,
+    PRODUCT_UPDATE: 4,
+    PRODUCT_DELETE: 5,
+    PRODUCT_PHOTO_CRON: 6
+}

@@ -1,0 +1,11 @@
+<%- include('../includes/header.ejs') %>
+<div class="main">
+    <h3>Dear, <%= user.name %>!</h3>
+    <div>
+        <p>You created a product with this following features:</p>
+        <div><%= product.title %></div>
+        <div><%= product.price %></div>
+        <div><%= product.description %></div>
+    </div>
+</div>
+<%- include('../includes/footer.ejs') %>
