@@ -2,7 +2,7 @@
   "name": "okten-HW-3",
   "version": "1.0.0",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "uuid": "^8.1.0",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.11"
